@@ -1,0 +1,122 @@
+body {
+    background-image: url('../assets/img/POKIMONISITOS.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pokimon';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'pokimons';
+    src: url('../assets/fuentes/Minecraft.ttf') format('truetype');
+}
+
+.form-wrapper {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    max-width: 800px;
+}
+
+.titlePoki {
+    font-family: Pokimon;
+    color: rgb(8, 12, 235);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px white;
+}
+
+.formulario-poki fieldset {
+    margin-bottom: 20px;
+    border: 2px solid navy;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: navy;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid navy;
+    border-radius: 8px;
+    font-family: Pokimon;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: Pokimon;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: navy;
+    border: 1px solid navy;
+    transition: 0.3s ease;
+}
+.pokimons-box img {
+    width: 50px;
+    height: auto;
+}
+/* Contenedor general que agrupa las tarjetas */
+.pokimons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* Caja individual para cada pokimon */
+.pokimons-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100px;
+}
+
+/* Imagen de pokimon */
+.pokimons-box img {
+    width: 70px;
+    height: auto;
+}
+
+/* Texto del nombre y rol */
+.entrenador-nombre {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+    color: navy;
+}
+
+.pokimons-rol {
+    font-size: 15px;
+    color: #333;
+}
+
+
+

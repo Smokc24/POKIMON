@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenador</title>
+    <script src="../js/Entrenador.js"></script>
+    <link rel="stylesheet" href="../css/pokimons.css">
+    <style>
+        .entrenadores-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .entrenador-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px solid navy;
+            border-radius: 15px;
+            width: 150px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .entrenador-box img {
+            width: 100px;
+            height: auto;
+        }
+
+        .entrenador-nombre {
+            font-weight: bold;
+            color: navy;
+            margin-top: 10px;
+        }
+
+        .entrenador-rol {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="titlePoki">Entrenador</div>
+        <div class="formulario-poki">
+            <fieldset>
+                <legend><h1>ENTRENADOR</h1></legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="apellido">Especialidad:</label>
+                <input type="text" id="Especialidad" name="Especialidad" required><br><br>
+
+                <legend><h1>OPCIONES</h1></legend>
+                <button onclick="location.href='../vistas/pokimons.html'">Ver pokimons</button>
+            </fieldset>
+        </div>
+
+        <!-- Caja de entrenadores -->
+        <div class="entrenadores-container">
+            <div class="entrenador-box">
+                <img src="../assets/img/cientifica.png" alt="Científica">
+                <div class="entrenador-nombre">Científica</div>
+                <div class="entrenador-rol">Scientist</div>
+            </div>
+        
+            <div class="entrenador-box">
+                <img src="../assets/img/medium.png" alt="Camarera">
+                <div class="entrenador-nombre">Camarera</div>
+                <div class="entrenador-rol">Waitress</div>
+            </div>
+        
+            <div class="entrenador-box">
+                <img src="../assets/img/aristocrata.png" alt="CriadPokémon">
+                <div class="entrenador-nombre">CriadPokémon</div>
+                <div class="entrenador-rol">Pokémon Breeder</div>
+            </div>
+        
+            <div class="entrenador-box">
+                <img src="../assets/img/chico malo.png" alt="Bruja">
+                <div class="entrenador-nombre">Bruja</div>
+                <div class="entrenador-rol">Hex Maniac</div>
+            </div>
+        
+            <div class="entrenador-box">
+                <img src="../assets/img/pequeño niñoooooo.png" alt="Entrenador Promesa">
+                <div class="entrenador-nombre">Entrenador Promesa</div>
+                <div class="entrenador-rol">Youngster</div>
+            </div>
+        
+            <div class="entrenador-box">
+                <img src="../assets/img/goku.png" alt="Domadragón">
+                <div class="entrenador-nombre">Domadragón</div>
+                <div class="entrenador-rol">Dragon Tamer</div>
+            </div>
+        
+            <div class="entrenador-box">
+                <img src="../assets/img/gorra roja.png" alt="Domadragón">
+                <div class="entrenador-nombre">Entrenador guay</div>
+                <div class="entrenador-rol">Ace Trainerr</div>
+            </div>
+            <div class="entrenador-box">
+                <img src="../assets/img/_Entrenadora_aérea.png" alt="Estudiante">
+                <div class="entrenador-nombre">Estudiante</div>
+                <div class="entrenador-rol">Schoolgirl</div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+   
+
+  
+
